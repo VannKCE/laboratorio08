@@ -1,3 +1,19 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;     
+}
+
+a:nth-child(even){
+    background-color: #d3d3d3;
+}
+
 li:nth-child(odd) {
     background-color: #e1e1e1;
 }
